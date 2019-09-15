@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dog Age Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+                color: #394a6d;
+                background: #394a6d;
+                line-height: 140%;
+            }
+
+            #main {
+                width: 80%;
+                height: 100%;
+                padding: 2%;
+                background: #fff;
+                margin: 0 auto;;
+            }
+
+            h1 {
+                color: #3c9d9b;
+            }
+
+            label {
+                display: inline-block;
+                margin: 10px 0;
+            }
+
+            #calculate {
+                display: block;
+                margin-top: 5px;
+                color: #fff;
+                background: #3c9d9b;
+                border: none;
+                padding: 1%;
+                border-radius: 9px;
+            }
+
+            #output {
+                display: block;
+                height: 100px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="main">
+        <h1>Dog Age Calculator</h1>
+        <p>Find Out How Old Your Dog is in Human Years!</p>
+        <form>
+            <label for="dogAge">Dog's Age: <input id="dogAge" name="dogAge" type="text"/></label>
+            <button id="calculate" type="button">Calculate!</button>
+        </form>
+        <div id="output"></div>
+        <script src="script.js">
+            
+        </script>
+    </body>
+</html>
